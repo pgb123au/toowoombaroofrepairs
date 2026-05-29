@@ -1,0 +1,164 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does roof restoration cost in Toowoomba?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A full tile roof restoration — high-pressure clean, re-bed and flexible-repoint the ridge capping, replace broken tiles, prime, then two membrane coats — generally costs $4,500–$9,000 for a single-storey Toowoomba home in 2026, with most landing around $6,500–$9,000 for a 150–200m² roof. Pricing by the square metre runs roughly $28–$45/m² for tile and a little more for Colorbond restoration; terracotta costs more than concrete tile because it needs specialised handling. We quote the whole job, not a per-metre rate that leaves out the repairs." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a restoration worth it, or should I just replace the roof?",
+      "acceptedAnswer": { "@type": "Answer", "text": "If the tiles themselves are structurally sound and it's the bedding, pointing, coating and a few broken tiles that have aged, a restoration is excellent value — it can add 10–15 years for a fraction of a reroof's cost. If the tiles are delaminating and porous, the battens are rotten, or you've had repeated leaks across the roof, restoration is lipstick on a failing roof and a replacement is the smarter spend. We assess honestly and tell you which one your roof genuinely needs." }
+    },
+    {
+      "@type": "Question",
+      "name": "What is flexible repointing and why does it matter in Toowoomba?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Repointing is renewing the mortar-line that holds your ridge and hip capping in place. Old rigid sand-cement pointing cracks — especially in Toowoomba, where reactive black-soil clays make buildings move seasonally — and once it cracks, water gets in and caps can lift in a storm. Flexible pointing is a modern compound that flexes with that movement instead of cracking off, so the capping stays sealed and secure far longer. We use flexible pointing on every re-bed and restoration." }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a roof restoration take and how long does it last?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A typical single-storey restoration takes 2–4 days, weather permitting — clean and repairs first, then bedding and pointing, then prime and coats with drying time between. A properly done restoration on a sound tile roof generally lasts 10–15 years before it needs recoating, and the re-bedding and repointing last longer again. It's the most cost-effective way to get years more life out of a roof that's tired but not finished." }
+    }
+  ]
+};
+---
+<Layout
+  title="Roof Restoration Toowoomba | Clean, Re-bed, Repoint, Coat"
+  description="Roof restoration in Toowoomba — high-pressure clean, re-bed & flexible-repoint ridge capping, prime & membrane coat to add years to a sound tile roof. QBCC-licensed. ~$4.5K–$9K. Free quote."
+  canonical="https://toowoombaroofrepairs.com.au/services/roof-restoration/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Clean &middot; re-bed &middot; flexible repoint &middot; coat</span>
+      <h1>Roof restoration across <span class="accent">Toowoomba</span>.</h1>
+      <p class="hero-sub">
+        If your tile roof is tired but not finished &mdash; faded, mossy, with
+        cracked pointing and a few broken tiles &mdash; a restoration adds years
+        for a fraction of a reroof. High-pressure clean, re-bed and
+        flexible-repoint the ridge lines, replace broken tiles, prime and membrane
+        coat. ~$4.5K&ndash;$9K for a single storey. QBCC-licensed. Honest advice on
+        restore versus replace.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <h2>What a roof restoration involves.</h2>
+      <div style="max-width: 65rem;">
+
+        <h3>1. Inspect &amp; the honest call.</h3>
+        <p>
+          Before we quote a restoration we get on the roof and check the tiles
+          themselves are sound. Restoration is brilliant value on a roof
+          that&rsquo;s aged on the surface but structurally fine. It&rsquo;s a
+          waste of money on one that&rsquo;s genuinely failed &mdash; delaminating,
+          porous tiles or rotten battens need a
+          <a href="/services/roof-replacement/">reroof</a>, not a coat of paint.
+          We tell you which one you&rsquo;ve got, with photos.
+        </p>
+
+        <h3 style="margin-top: 2rem;">2. High-pressure clean.</h3>
+        <p>
+          We strip off years of moss, lichen, dirt and chalked-out old coating
+          with a high-pressure clean. This is what lets the new coating actually
+          bond &mdash; coating over a dirty roof is the classic corner-cut that
+          peels within a year or two. The clean also reveals every cracked tile
+          and failed pointing line that needs attention.
+        </p>
+
+        <h3 style="margin-top: 2rem;">3. Repairs &amp; broken-tile replacement.</h3>
+        <p>
+          We replace cracked and broken tiles (matching profile and colour as
+          closely as stock allows) and sort any slipped tiles, flashings and
+          valley issues before coating &mdash; see our
+          <a href="/services/roof-repairs/">roof repairs</a> page for the detail.
+          There&rsquo;s no sense sealing a coat over a roof that&rsquo;s still
+          letting water in underneath.
+        </p>
+
+        <h3 style="margin-top: 2rem;">4. Re-bed &amp; flexible repoint.</h3>
+        <p>
+          The ridge and hip capping gets re-bedded where the mortar has failed
+          and repointed with a <strong>flexible pointing compound</strong>. This
+          matters more in Toowoomba than almost anywhere: our reactive black-soil
+          clays make buildings move with the seasons, and rigid sand-cement
+          pointing simply cracks under that movement. Flexible pointing flexes
+          with the roof, so the capping stays sealed and won&rsquo;t lift in the
+          next storm.
+        </p>
+
+        <h3 style="margin-top: 2rem;">5. Prime &amp; membrane coat.</h3>
+        <p>
+          We seal the cleaned tiles with a primer, then apply two coats of a
+          tile-roof membrane in your chosen colour. The result restores the look,
+          re-waterproofs the tile surface, and reflects heat &mdash; a real plus
+          through a Toowoomba summer. A properly done restoration generally lasts
+          10&ndash;15 years before it needs recoating.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Standards, licensing &amp; cost.</h3>
+        <p>
+          Restoration work over $3,300 must be done by a <strong>QBCC</strong>-licensed
+          contractor (check the number on the public register), tiled-roof work
+          follows <strong>AS 2050</strong>, any metal detailing follows
+          <strong>AS 1562.1</strong>, and fixings are wind-rated to
+          <strong>AS 1170.2</strong>. We work at height under WorkSafe
+          fall-protection rules. Expect roughly $4,500&ndash;$9,000 for a
+          single-storey home, around $28&ndash;$45/m&sup2; &mdash; terracotta
+          costs more than concrete tile because it needs specialised handling.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Why we don&rsquo;t cut corners.</h3>
+        <p>
+          A cheap restoration is the easiest job in roofing to fake: skip the
+          proper clean, coat straight over moss and broken tiles, point with rigid
+          mortar, and it looks great on handover day. Then it peels, the pointing
+          cracks, and the leaks come back. We clean to bare tile, repair first,
+          use flexible pointing, and prime before we coat &mdash; so the roof is
+          genuinely restored, not just repainted for the photos.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2>Where we work.</h2>
+      <div class="areas-grid">
+        <a class="area-pill" href="/rangeville/">Rangeville</a>
+        <a class="area-pill" href="/centenary-heights/">Centenary Heights</a>
+        <a class="area-pill" href="/highfields/">Highfields</a>
+        <a class="area-pill" href="/wilsonton/">Wilsonton</a>
+        <a class="area-pill" href="/glenvale/">Glenvale</a>
+        <a class="area-pill" href="/toowoomba-region/">All Toowoomba Region</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cta-block">
+        <h2>Is your tile roof tired but sound?</h2>
+        <p>We&rsquo;ll get up there, tell you honestly whether to restore or replace, and quote a proper restoration &mdash; clean, repair, repoint, coat.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+          <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

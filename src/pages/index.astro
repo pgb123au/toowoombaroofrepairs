@@ -1,0 +1,227 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much do roof repairs cost in Toowoomba in 2026?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Small repairs (a handful of cracked tiles, a section of ridge capping re-bedded, a flashing reseal) usually land in the $350–$900 range. A leak chase plus repair is typically $450–$1,200 depending on how far the water has travelled. Re-bedding and flexible-repointing all the ridge lines on an average house runs $1,800–$4,000. A full roof restoration (clean, re-bed, repoint, prime, two membrane coats) is generally $4,500–$9,000 for a single-storey home. A full reroof or tile-to-Colorbond conversion on a 150–200m² roof is $18,000–$35,000. These are honest Toowoomba ballpark bands for 2026 — the only way to get a real number is an on-roof inspection, which we do for free." }
+    },
+    {
+      "@type": "Question",
+      "name": "My roof was hit by hail — will insurance cover the repair?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Usually yes. Storm and hail damage is covered by virtually every home and contents policy in Australia (unlike gradual wear, which is not). The process: get the roof made safe first (we tarp and stop active leaks), lodge the claim with your insurer, then we provide a detailed scope and photo report your assessor can work from. You pay your excess; the insurer covers the approved repair. Toowoomba sits squarely in the Darling Downs hail belt — the October 2017 storm dropped golf-ball hail and damaged over 1,500 homes across the eastern range in about 15 minutes — so insurers here see roof hail claims every storm season. We do these claims regularly and are happy to deal directly with your assessor." }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I repair, restore, or fully replace my roof?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It comes down to the roof's age and the condition of the actual roofing material, not just how it looks. If the tiles or sheets are structurally sound and it's the bedding, pointing, coating or a few broken tiles letting water in, a repair or restoration is the right call and a fraction of the cost. If the tiles are delaminating, the metal is rust-perforated, the battens are rotten, or you've had repeated leaks across multiple areas, a reroof is the better long-term spend. We'll tell you honestly which one your roof needs — we don't upsell a replacement when a repair will do, and we won't band-aid a roof that's genuinely failed." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a licensed roofer in Queensland?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. In Queensland any roofing work valued over $3,300 must be carried out by a contractor holding the relevant QBCC licence — roof tiling, or roof and wall cladding for metal work. The licence requires a Certificate III in the trade plus demonstrated experience and a 'fit and proper person' check. Always ask for the QBCC licence number and check it on the free public register at qbcc.qld.gov.au before any roofer starts. Working at height on a roof is also covered by WorkSafe fall-protection rules — a licensed roofer carries the insurance and safety systems an unlicensed handyman does not." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is metal (Colorbond) better than tile for a Toowoomba reroof?",
+      "acceptedAnswer": { "@type": "Answer", "text": "For most Toowoomba homes, Colorbond is the stronger long-term choice. It's lighter (less load on cracking-clay-stressed framing), it sheds water and debris faster, it won't crack or delaminate like ageing concrete tiles, and modern wind-rated fixing to AS 1562.1 handles the Darling Downs storm gusts well. Tile still suits some heritage and streetscape-controlled homes, and a well-maintained tile roof restored properly will last decades. The honest answer depends on your existing structure, your budget and the look you want — we'll quote both tile repair/restoration and a Colorbond reroof so you can compare like-for-like." }
+    }
+  ]
+};
+---
+<Layout
+  title="Roof Repairs Toowoomba | Reroofing & Storm Hail Damage"
+  description="Roof repairs Toowoomba — leaks, cracked tiles, ridge capping, reroofing, metal & Colorbond, storm & hail damage and insurance-claim repairs across the Darling Downs. QBCC-licensed. Free quote."
+  canonical="https://toowoombaroofrepairs.com.au/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Rangeville &middot; Centenary Heights &middot; Highfields &middot; Wilsonton &middot; Glenvale</span>
+      <h1>Toowoomba&rsquo;s <span class="accent">roof repair &amp; storm damage</span> team.</h1>
+      <p class="hero-sub">
+        Leak repairs, cracked tiles, ridge capping and flashings. Tile-to-Colorbond
+        reroofs and metal roofing. Storm and hail damage make-safe and full
+        insurance-claim repairs. Toowoomba sits in the Darling Downs hail belt &mdash;
+        when the spring and summer supercells roll through the range, we&rsquo;re who
+        you call. QBCC-licensed. Honest pricing. Free on-roof quote.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+
+      <div class="hero-trust">
+        <div><strong>QBCC</strong>Licensed roofing contractor</div>
+        <div><strong>AS 1562.1</strong>Metal roofing standard</div>
+        <div><strong>AS 1170.2</strong>Wind-rated fixing</div>
+        <div><strong>Insurance</strong>Hail-claim repairs welcome</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <span class="section-eyebrow">What we do</span>
+      <h2>Five roofing services.</h2>
+      <p class="section-lead">
+        From a $400 leak repair through to a $30K tile-to-Colorbond reroof &mdash;
+        and every insurance hail claim in between. We&rsquo;re QBCC-licensed,
+        we work to the metal-roofing and wind-action standards, and we tell you
+        straight whether your roof needs a repair, a restoration or a replacement.
+      </p>
+
+      <div class="svc-grid">
+        <a class="svc-card" href="/services/roof-repairs/">
+          <div class="svc-icon" aria-hidden="true">&#9874;</div>
+          <h3>Roof repairs</h3>
+          <p>Leak repairs, cracked-tile and broken ridge-cap replacement, flashing and valley repair, rusted-sheet patching. Fast turnaround. ~$350&ndash;$1,200 for most jobs.</p>
+          <span class="svc-link">See roof repairs &rarr;</span>
+        </a>
+
+        <a class="svc-card" href="/services/roof-replacement/">
+          <div class="svc-icon" aria-hidden="true">&#9968;</div>
+          <h3>Roof replacement &amp; reroofing</h3>
+          <p>Full tile-to-Colorbond conversions and metal reroofs, with sarking and batten upgrades to current code. ~$18K&ndash;$35K for a typical 150&ndash;200m&sup2; home.</p>
+          <span class="svc-link">See reroofing &rarr;</span>
+        </a>
+
+        <a class="svc-card" href="/services/storm-hail-damage/">
+          <div class="svc-icon" aria-hidden="true">&#9889;</div>
+          <h3>Storm &amp; hail damage</h3>
+          <p>Emergency make-safe and tarping, then full insurance-claim repair after Darling Downs hail and supercell storms. We deal directly with your assessor.</p>
+          <span class="svc-link">See storm &amp; hail &rarr;</span>
+        </a>
+
+        <a class="svc-card" href="/services/metal-roofing/">
+          <div class="svc-icon" aria-hidden="true">&#9636;</div>
+          <h3>Metal roofing &amp; Colorbond</h3>
+          <p>Colorbond reroofs, custom-orb and trimdek profiles, guttering and downpipes, wind-rated fixing to AS 1562.1. The strong long-term choice for the range.</p>
+          <span class="svc-link">See metal roofing &rarr;</span>
+        </a>
+
+        <a class="svc-card" href="/services/roof-restoration/">
+          <div class="svc-icon" aria-hidden="true">&#10070;</div>
+          <h3>Roof restoration</h3>
+          <p>High-pressure clean, re-bed and flexible-repoint ridge capping, prime and membrane coat to add years to a sound tile roof. ~$4.5K&ndash;$9K for a single storey.</p>
+          <span class="svc-link">See roof restoration &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <span class="section-eyebrow">Why a Toowoomba roofer</span>
+      <h2>Three things every Toowoomba roof job should get right.</h2>
+      <div class="divider"></div>
+
+      <div style="display: grid; grid-template-columns: 1fr; gap: 2rem; max-width: 60rem;">
+        <div>
+          <h3>We build for the Darling Downs hail belt.</h3>
+          <p>
+            Toowoomba isn&rsquo;t a coastal climate &mdash; it&rsquo;s an elevated
+            range city that copes a punishing spring and summer storm season.
+            The October 2017 supercell dropped golf-ball hail and damaged more
+            than 1,500 homes across the eastern range in around fifteen minutes,
+            and barely a season passes without a severe-storm warning over the
+            Downs. That means ridge capping, flashings and roof sheets here take
+            a beating most southern roofs never see. We fix and fit for it:
+            properly bedded and flexible-repointed capping that won&rsquo;t lift,
+            wind-rated sheet fixing to <strong>AS 1170.2</strong>, and a
+            preference for impact-tough materials on the most exposed elevations.
+          </p>
+        </div>
+        <div>
+          <h3>Repair when we can, replace when we should.</h3>
+          <p>
+            Plenty of roofs we look at don&rsquo;t need replacing &mdash; they
+            need a leak chased, a run of cracked tiles swapped, the ridge lines
+            re-bedded, or a tired but sound surface restored. So that&rsquo;s
+            what we quote. We don&rsquo;t talk a homeowner into a $30,000 reroof
+            when a $4,000 restoration buys another decade. But we also
+            won&rsquo;t band-aid a roof that&rsquo;s genuinely failed &mdash; rust
+            perforated, tiles delaminating, battens rotten &mdash; because a
+            patch on a dead roof is money down the gutter. You get the honest call.
+          </p>
+        </div>
+        <div>
+          <h3>Cracking-clay soils stress your roof from below.</h3>
+          <p>
+            Much of Toowoomba and the Downs sits on reactive black-soil clays
+            that swell and shrink with the seasons. That movement works its way
+            up through the structure, stressing the roof frame and opening up the
+            hairline cracks in tiles and the gaps in rigid mortar pointing that
+            let water in. It&rsquo;s why we use <strong>flexible pointing</strong>
+            rather than brittle sand-cement on ridge and hip lines &mdash; it
+            moves with the building instead of cracking off it &mdash; and why we
+            look at the whole roof, not just the leak you called about.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <span class="section-eyebrow">Service areas</span>
+      <h2>Where we work.</h2>
+      <p class="lead" style="max-width: 42rem; margin-bottom: 1rem;">
+        Across the Toowoomba Region &mdash; the established range suburbs, the
+        northern growth area and out across the Darling Downs. Storm season
+        we run emergency make-safe calls; the rest of the year it&rsquo;s
+        repairs, restorations and reroofs.
+      </p>
+      <div class="areas-grid">
+        <a class="area-pill" href="/rangeville/">Rangeville</a>
+        <a class="area-pill" href="/centenary-heights/">Centenary Heights</a>
+        <a class="area-pill" href="/highfields/">Highfields</a>
+        <a class="area-pill" href="/wilsonton/">Wilsonton</a>
+        <a class="area-pill" href="/glenvale/">Glenvale</a>
+        <a class="area-pill" href="/toowoomba-region/">Toowoomba Region</a>
+        <span class="area-pill area-pill-static">Kearneys Spring</span>
+        <span class="area-pill area-pill-static">Middle Ridge</span>
+        <span class="area-pill area-pill-static">Darling Heights</span>
+        <span class="area-pill area-pill-static">Westbrook</span>
+        <span class="area-pill area-pill-static">Mount Lofty</span>
+        <span class="area-pill area-pill-static">Newtown</span>
+        <span class="area-pill area-pill-static">Harristown</span>
+        <span class="area-pill area-pill-static">Drayton</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="section-inner">
+      <span class="section-eyebrow">How it works</span>
+      <h2>From your call to a finished roof &mdash; 5 stages.</h2>
+
+      <div class="steps">
+        <div class="step"><div class="step-num">1</div><h3>Your call</h3><p>Phone or online quote request. For a storm leak or hail damage we prioritise the make-safe &mdash; we&rsquo;ll get a tarp on and the water stopped fast.</p></div>
+        <div class="step"><div class="step-num">2</div><h3>On-roof inspection</h3><p>We get up there and look properly &mdash; tiles, ridge lines, flashings, valleys, sheets, gutters. Photos of anything you can&rsquo;t see from the ground.</p></div>
+        <div class="step"><div class="step-num">3</div><h3>Honest written quote</h3><p>A clear scope and fixed price. Repair, restore or replace &mdash; we tell you which one your roof actually needs, and why. Insurance scope if it&rsquo;s a claim.</p></div>
+        <div class="step"><div class="step-num">4</div><h3>The work</h3><p>Tidy, code-compliant work to AS 1562.1 / AS 1170.2 with proper height safety. Most repairs in a day; restorations 2&ndash;4 days; reroofs 1&ndash;2 weeks.</p></div>
+        <div class="step"><div class="step-num">5</div><h3>Sign-off &amp; clean-up</h3><p>We clean up every tile, screw and offcut, walk you through what was done, and provide the documentation you need for insurance or resale.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cta-block">
+        <h2>Ready for a free roof quote?</h2>
+        <p>Leak, hail damage, tired tiles or a full reroof &mdash; we&rsquo;ll get up there, look properly, and give you an honest price.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+          <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

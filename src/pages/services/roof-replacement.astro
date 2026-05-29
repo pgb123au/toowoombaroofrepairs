@@ -1,0 +1,161 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does it cost to reroof a house in Toowoomba?",
+      "acceptedAnswer": { "@type": "Answer", "text": "For a typical single-storey Toowoomba home with a 150–200m² roof, a full reroof generally runs $18,000–$35,000 in 2026. A tile-to-Colorbond conversion sits toward the upper end because the old tiles have to be stripped and disposed of (around $20–$50/m²) and new battens and sarking added. A like-for-like metal reroof is usually less. Two-storey, steep-pitch, complex or acreage roofs cost more. We give a fixed written price after measuring the roof, not a guess off the street." }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I convert my tile roof to Colorbond?",
+      "acceptedAnswer": { "@type": "Answer", "text": "For many Toowoomba homes, yes. Colorbond is much lighter than concrete tile (easing load on framing stressed by reactive-clay movement), sheds water and hail debris faster, won't crack or delaminate with age, and modern wind-rated fixing to AS 1562.1 handles Darling Downs storm gusts well. Tile suits some heritage and streetscape-controlled homes and a restored tile roof lasts decades — so it's not automatic. We quote both a tile restoration/repair and a Colorbond reroof so you can compare the real numbers and lifespans." }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a reroof take?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A straightforward single-storey reroof is usually 1–2 weeks weather permitting. Stripping the old roof, upgrading battens and laying sarking takes the first few days; the new roof goes on after that. We never leave a roof open overnight without it being made weather-tight — important during storm season when an afternoon supercell can arrive with little warning." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need council approval or a licence to reroof?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A like-for-like reroof is generally maintenance and doesn't need development approval, but changing roof material, pitch or structure can — and heritage or character overlays in some Toowoomba streets add controls. The work itself must be done by a QBCC-licensed roofing contractor (it's well over the $3,300 licensing threshold), built to AS 1562.1 with wind-rated fixing to AS 1170.2. We handle the compliance side and tell you up front if any approval applies to your job." }
+    }
+  ]
+};
+---
+<Layout
+  title="Roof Replacement & Reroofing Toowoomba | Tile to Colorbond"
+  description="Roof replacement & reroofing in Toowoomba — full tile-to-Colorbond conversions and metal reroofs, sarking & batten upgrades to code. QBCC-licensed, AS 1562.1 / AS 1170.2. Free quote."
+  canonical="https://toowoombaroofrepairs.com.au/services/roof-replacement/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Reroofing &middot; tile-to-Colorbond &middot; metal reroof</span>
+      <h1>Roof replacement &amp; reroofing in <span class="accent">Toowoomba</span>.</h1>
+      <p class="hero-sub">
+        When a roof is past repair &mdash; rust-perforated metal, delaminating
+        tiles, rotten battens, or one leak too many &mdash; a reroof is the better
+        long-term spend. We strip the old roof, upgrade battens and sarking to
+        current code, and lay a new Colorbond or tile roof built for the Darling
+        Downs storm season. ~$18K&ndash;$35K for a typical home. QBCC-licensed.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <h2>What a reroof involves.</h2>
+      <div style="max-width: 65rem;">
+
+        <h3>When replacement beats repair.</h3>
+        <p>
+          We&rsquo;d always rather <a href="/services/roof-repairs/">repair</a> or
+          <a href="/services/roof-restoration/">restore</a> a sound roof than
+          replace it. But some roofs are genuinely finished: metal that&rsquo;s
+          rust-perforated through the sheets and laps, concrete tiles that have
+          delaminated and gone porous, battens that have rotted out, or a roof
+          that&rsquo;s leaked in so many places that chasing patches is throwing
+          good money after bad. At that point a reroof is cheaper over the next
+          twenty years than the endless repairs &mdash; and we&rsquo;ll show you
+          the photos that prove which camp your roof is in.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Tile-to-Colorbond conversions.</h3>
+        <p>
+          The most popular reroof we do. We strip and dispose of the old tiles,
+          inspect and replace any failed battens, lay new sarking (foil insulation
+          and a secondary water barrier), then fix a Colorbond roof in your chosen
+          profile and colour. Colorbond is dramatically lighter than tile, which
+          eases the load our reactive-clay ground movement puts on the frame, and
+          it stands up to hail and wind better. A 150&ndash;200m&sup2; conversion
+          is typically $25,000&ndash;$35,000 &mdash; the strip-and-dispose
+          (~$20&ndash;$50/m&sup2;) is what makes it dearer than a like-for-like
+          metal reroof.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Metal-to-metal reroofs.</h3>
+        <p>
+          Replacing a tired or rusted metal roof with new Colorbond is faster and
+          generally cheaper than a tile conversion &mdash; there&rsquo;s less to
+          strip and dispose of. We check the battens and structure, upgrade
+          fixing to current wind ratings, and renew flashings, ridge and gutters
+          at the same time so the whole system is new together. See our
+          <a href="/services/metal-roofing/">metal roofing</a> page for profiles
+          and detail.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Battens, sarking &amp; bringing it up to code.</h3>
+        <p>
+          A reroof is the one chance to fix what&rsquo;s under the roof, not just
+          what&rsquo;s on it. We replace any rotten or under-spec battens, add
+          sarking where the original roof had none (it improves insulation and
+          gives a second line of defence against wind-driven rain and hail melt),
+          and bring fixing up to <strong>AS 1170.2</strong> wind ratings for our
+          region. The new roof is installed to <strong>AS 1562.1</strong> for
+          metal or <strong>AS 2050</strong> for tile.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Licensing, approval &amp; insurance.</h3>
+        <p>
+          A reroof is far over the $3,300 QBCC threshold, so it must be done by a
+          licensed roofing contractor &mdash; check the number on the free QBCC
+          register. A like-for-like reroof is usually maintenance, but changing
+          material, pitch or structure (and some heritage/character overlay
+          streets) can need approval &mdash; we flag that up front. If the
+          replacement is storm-driven it may be an insurance job; see
+          <a href="/services/storm-hail-damage/">storm &amp; hail damage</a>.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Why we don&rsquo;t cut corners.</h3>
+        <p>
+          The temptation on a reroof is to skip the bits no one sees &mdash; reuse
+          marginal battens, leave out sarking, under-fix the sheets to save
+          screws. We don&rsquo;t, because those are exactly the things that fail
+          in the next big Downs storm and turn a twenty-year roof into a
+          ten-year one. We keep the roof weather-tight every night it&rsquo;s
+          open, fix to full wind ratings, and leave you with documentation for
+          insurance and resale.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2>Where we work.</h2>
+      <div class="areas-grid">
+        <a class="area-pill" href="/rangeville/">Rangeville</a>
+        <a class="area-pill" href="/centenary-heights/">Centenary Heights</a>
+        <a class="area-pill" href="/highfields/">Highfields</a>
+        <a class="area-pill" href="/wilsonton/">Wilsonton</a>
+        <a class="area-pill" href="/glenvale/">Glenvale</a>
+        <a class="area-pill" href="/toowoomba-region/">All Toowoomba Region</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cta-block">
+        <h2>Thinking about a new roof?</h2>
+        <p>We&rsquo;ll measure it, quote tile and Colorbond side by side, and give you honest lifespans for each. Fixed written price.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+          <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

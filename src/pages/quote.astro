@@ -1,0 +1,140 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout
+  title="Free Roof Quote | Toowoomba Roof Repairs"
+  description="Get a free roof quote in Toowoomba — repairs, reroofing, storm & hail damage, metal & Colorbond, restoration. QBCC-licensed. We come out, look properly, and quote honestly."
+  canonical="https://toowoombaroofrepairs.com.au/quote/">
+
+  <section class="hero" style="padding: 2.5rem 0 3rem;">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Free Roof Quote</span>
+      <h1>Get a free roof quote.</h1>
+      <p class="hero-sub">
+        Tell us what&rsquo;s going on &mdash; a leak, a few cracked tiles, storm or
+        hail damage, a tired roof, or a full reroof. We&rsquo;ll get up there,
+        look properly, and give you an honest fixed price. Storm and hail
+        make-safe calls are prioritised during the Darling Downs storm season.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="form-wrap">
+        <div class="form-card">
+          <form name="quote" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/thanks/">
+            <input type="hidden" name="form-name" value="quote" />
+            <p style="display:none;"><label>Don&rsquo;t fill this out: <input name="bot-field" /></label></p>
+
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required />
+
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="04xx xxx xxx" />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+
+            <label for="suburb">Suburb / postcode</label>
+            <input id="suburb" name="suburb" type="text" autocomplete="address-level2" required placeholder="e.g. Rangeville 4350, Highfields 4352, Glenvale 4350" />
+
+            <label for="service-type">What do you need?</label>
+            <select id="service-type" name="service-type">
+              <option value="not-sure">Not sure &mdash; want a recommendation</option>
+              <option value="roof-repairs">Roof repair (leak, cracked tiles, ridge capping)</option>
+              <option value="storm-hail-damage">Storm or hail damage (insurance claim)</option>
+              <option value="roof-replacement">Roof replacement / reroofing</option>
+              <option value="metal-roofing">Metal roofing / Colorbond</option>
+              <option value="roof-restoration">Roof restoration (clean, repoint, coat)</option>
+              <option value="guttering">Guttering / downpipes</option>
+              <option value="not-listed">Something else</option>
+            </select>
+
+            <label for="property-type">Property type</label>
+            <select id="property-type" name="property-type">
+              <option value="house">Free-standing house</option>
+              <option value="townhouse">Townhouse</option>
+              <option value="unit">Unit / apartment block</option>
+              <option value="commercial">Commercial / business</option>
+              <option value="acreage">Acreage / rural-residential</option>
+              <option value="shed">Shed / outbuilding</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label for="roof-type">Roof type</label>
+            <select id="roof-type" name="roof-type">
+              <option value="not-sure">Not sure</option>
+              <option value="concrete-tile">Concrete tile</option>
+              <option value="terracotta-tile">Terracotta tile</option>
+              <option value="metal-colorbond">Metal / Colorbond</option>
+              <option value="fibro">Old fibro / asbestos-cement</option>
+              <option value="mixed">Mixed / extension</option>
+            </select>
+
+            <label for="urgency">Urgency</label>
+            <select id="urgency" name="urgency">
+              <option value="emergency">URGENT &mdash; active leak / storm damage now</option>
+              <option value="this-week">This week</option>
+              <option value="2-weeks">Within 2 weeks</option>
+              <option value="month">Within a month</option>
+              <option value="planning">Planning ahead</option>
+              <option value="quote-only">Quote only, no urgency</option>
+            </select>
+
+            <label for="insurance">Is this an insurance claim?</label>
+            <select id="insurance" name="insurance">
+              <option value="not-sure">Not sure</option>
+              <option value="yes-lodged">Yes &mdash; claim already lodged</option>
+              <option value="yes-not-lodged">Yes &mdash; not lodged yet</option>
+              <option value="no">No &mdash; paying privately</option>
+            </select>
+
+            <label for="message">Any details? (optional)</label>
+            <textarea id="message" name="message" rows="4" placeholder="Where the leak shows, what damage you can see, age of the roof, single or double storey, access notes, deadline details, etc."></textarea>
+
+            <button class="btn btn-primary btn-block" type="submit">Send my quote request</button>
+
+            <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--c-muted);">We reply within 1 business day. Free, no obligation. Urgent storm calls answered Mon&ndash;Sat 7am&ndash;5pm.</p>
+          </form>
+        </div>
+
+        <aside class="form-aside">
+          <h3>Prefer to talk?</h3>
+
+          <div class="info-row">
+            <span aria-hidden="true" style="font-size:1.5rem; line-height:1;">&#9742;</span>
+            <div>
+              <strong>Phone</strong>
+              <a class="ph-cta" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+              <p style="font-size:0.85rem; color:var(--c-muted); margin:0;">Mon&ndash;Sat 7am&ndash;5pm AEST</p>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span aria-hidden="true" style="font-size:1.5rem; line-height:1;">&#9978;</span>
+            <div>
+              <strong>Service area</strong>
+              <p style="margin:0;">Toowoomba Region &mdash; Rangeville, Centenary Heights, Highfields, Wilsonton, Glenvale, the range suburbs and out across the Darling Downs.</p>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <span aria-hidden="true" style="font-size:1.5rem; line-height:1;">&#10004;</span>
+            <div>
+              <strong>What you&rsquo;ll get</strong>
+              <ul style="margin:0.4rem 0 0; padding-left:1rem; font-size:0.95rem; color:var(--c-text);">
+                <li>Free on-roof inspection</li>
+                <li>Honest repair-versus-replace advice</li>
+                <li>A clear, fixed written quote</li>
+                <li>Storm &amp; hail make-safe prioritised</li>
+                <li>We deal with your insurance assessor</li>
+                <li>QBCC-licensed, work to AS 1562.1 / AS 1170.2</li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+</Layout>

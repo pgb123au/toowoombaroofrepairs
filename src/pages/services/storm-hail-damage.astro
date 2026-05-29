@@ -1,0 +1,161 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is storm and hail roof damage covered by home insurance?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Almost always, yes. Sudden storm, hail and wind damage is covered by virtually every home and contents policy in Australia — it's gradual wear, rust and lack of maintenance that aren't. You'll pay your policy excess and the insurer covers the approved repair. Toowoomba sits in the Darling Downs hail belt, so local insurers process roof hail claims every storm season. Read your Product Disclosure Statement so you know your excess and what's covered before the assessor visits." }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do straight after a hailstorm damages my roof?",
+      "acceptedAnswer": { "@type": "Answer", "text": "First, get the roof made safe — stop active leaks and cover broken areas so water doesn't keep getting into the ceiling. We do emergency tarping and make-safe fast during storm season. Take photos of the damage and any interior water damage, then lodge your claim with the insurer. Don't authorise full permanent repairs until the claim is underway, but you can and should make the roof safe immediately — insurers expect you to mitigate further damage." }
+    },
+    {
+      "@type": "Question",
+      "name": "Will you deal with my insurance assessor directly?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. We provide a detailed scope of works and photo report your assessor can work from, and we're happy to meet the assessor on site. Having an independent roofer's report alongside the insurer's assessment helps make sure nothing is missed — assessors look for the obvious hail, wind and tree damage, but subtle cracked tiles and bruised metal can be overlooked. A second set of expert eyes protects you." }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can you get to a storm-damaged roof in Toowoomba?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Make-safe and tarping is prioritised — when a supercell has just been through the range we work through the urgent calls first to stop water getting in. Permanent repairs are scheduled once the insurance claim is approved and materials are on hand. After a major hail event across the Downs, demand spikes and good roofers book out fast, so call as soon as the roof is safe to get into the queue." }
+    }
+  ]
+};
+---
+<Layout
+  title="Storm & Hail Damage Roof Repair Toowoomba | Insurance Claims"
+  description="Storm & hail damage roof repair in Toowoomba — emergency make-safe & tarping, then full insurance-claim repair after Darling Downs hail & supercell storms. We deal with your assessor. Free quote."
+  canonical="https://toowoombaroofrepairs.com.au/services/storm-hail-damage/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Make-safe &middot; tarping &middot; insurance-claim repair</span>
+      <h1>Storm &amp; hail damage roof repair in <span class="accent">Toowoomba</span>.</h1>
+      <p class="hero-sub">
+        Toowoomba sits in the Darling Downs hail belt &mdash; the October 2017
+        supercell dropped golf-ball hail and damaged over 1,500 homes across the
+        eastern range in about fifteen minutes. When the next one hits, we make
+        your roof safe first, then handle the full insurance-claim repair and
+        deal directly with your assessor. QBCC-licensed. Emergency make-safe
+        prioritised.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <h2>What we do after a storm.</h2>
+      <div style="max-width: 65rem;">
+
+        <h3>Emergency make-safe &amp; tarping.</h3>
+        <p>
+          The first priority after hail or a storm is stopping more water getting
+          in. We get out fast, tarp broken areas, clear blocked gutters and
+          valleys, and stop active leaks before they soak your ceilings,
+          insulation and walls. Insurers expect you to mitigate further damage,
+          so a prompt make-safe both protects your home and supports your claim.
+          During a big Downs storm event we work the urgent leak calls first.
+        </p>
+
+        <h3 style="margin-top: 2rem;">The hail belt is real &mdash; and recurring.</h3>
+        <p>
+          Toowoomba&rsquo;s elevation and position put it squarely in the path of
+          severe spring and summer supercells. Golf-ball hail, 90&ndash;100km/h
+          gusts and 9cm stones have all been recorded over the Downs in recent
+          years, and the Bureau of Meteorology issues severe-storm warnings here
+          most seasons. Hail cracks and bruises tiles, dents and work-hardens
+          metal sheets, and wind lifts ridge capping and flashings. We know what
+          to look for because we see it every storm season.
+        </p>
+
+        <h3 style="margin-top: 2rem;">How a roof insurance claim works.</h3>
+        <p>
+          Sudden storm and hail damage is covered by virtually every policy
+          (gradual wear is not). The process runs like this:
+        </p>
+        <ul>
+          <li><strong>Make the roof safe</strong> &mdash; we tarp and stop leaks; you take photos of roof and interior damage.</li>
+          <li><strong>Read your PDS</strong> &mdash; know your excess and what&rsquo;s covered before the assessor visits.</li>
+          <li><strong>Lodge the claim</strong> with your insurer and note the claim number.</li>
+          <li><strong>Independent scope</strong> &mdash; we provide a detailed scope of works and photo report; a second expert opinion alongside the insurer&rsquo;s assessor helps ensure nothing is missed.</li>
+          <li><strong>Assessment</strong> &mdash; the insurer&rsquo;s assessor inspects; we&rsquo;re happy to meet them on site.</li>
+          <li><strong>Approved repair</strong> &mdash; you pay the excess, the insurer covers the approved works, and we carry out the permanent repair.</li>
+        </ul>
+
+        <h3 style="margin-top: 2rem;">We deal with your assessor.</h3>
+        <p>
+          You don&rsquo;t have to be the go-between. We document the damage
+          properly, provide the scope your insurer needs, and meet the assessor
+          on the roof if that helps. Assessors are looking for obvious hail, wind
+          and tree damage, but bruised metal and hairline-cracked tiles are easy
+          to miss from a ladder &mdash; our report makes sure the full extent is
+          on record so you&rsquo;re not left short.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Permanent repair &mdash; done to code.</h3>
+        <p>
+          Once the claim is approved we carry out the lasting repair: replacing
+          cracked tiles and dented sheets, re-bedding and flexible-repointing
+          lifted capping, renewing flashings and valleys, and re-fixing to
+          <strong>AS 1170.2</strong> wind ratings so the roof is ready for the
+          next storm. Metal work is to <strong>AS 1562.1</strong>. If hail has
+          finished the roof off, we&rsquo;ll quote a
+          <a href="/services/roof-replacement/">full reroof</a> through the claim
+          rather than patching damage that won&rsquo;t hold.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Why we don&rsquo;t cut corners.</h3>
+        <p>
+          The wrong move after a storm is a cheap cosmetic patch that hides hail
+          bruising rather than fixing it &mdash; because that damage keeps leaking
+          and the next claim gets harder to argue. We document honestly, repair
+          to standard, and re-fix for wind so the roof is genuinely sound again.
+          You also keep a QBCC-licensed contractor&rsquo;s paperwork for your
+          records, not a cash-job receipt that means nothing to an insurer. See
+          our <a href="/services/roof-repairs/">roof repairs</a> page for the
+          repair detail.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2>Where we work.</h2>
+      <div class="areas-grid">
+        <a class="area-pill" href="/rangeville/">Rangeville</a>
+        <a class="area-pill" href="/centenary-heights/">Centenary Heights</a>
+        <a class="area-pill" href="/highfields/">Highfields</a>
+        <a class="area-pill" href="/wilsonton/">Wilsonton</a>
+        <a class="area-pill" href="/glenvale/">Glenvale</a>
+        <a class="area-pill" href="/toowoomba-region/">All Toowoomba Region</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cta-block">
+        <h2>Storm or hail just hit your roof?</h2>
+        <p>Call us for an emergency make-safe, then we&rsquo;ll handle the insurance claim and deal with your assessor. Make-safe prioritised.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+          <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

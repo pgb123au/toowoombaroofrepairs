@@ -1,0 +1,155 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a Colorbond roof cost in Toowoomba?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Supplied and installed, a Colorbond roof generally runs around $50–$97 per square metre in 2026 depending on profile, pitch, access and whether new battens, sarking, flashings and gutters are included. For a full reroof on a 150–200m² Toowoomba home that typically works out to roughly $18,000–$30,000 for metal-to-metal, more for a tile-to-Colorbond conversion where the old tiles must be stripped and disposed of. We measure the roof and give a fixed written price." }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between custom orb and trimdek?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Custom orb is the classic rounded-corrugated profile — a traditional look that suits heritage and Queenslander homes. Trimdek (and similar concealed-fixed ribbed profiles) is a more modern square-rib look that can run to a lower roof pitch. Both come in the full Colorbond colour range and both perform well in the Darling Downs climate when fixed correctly to AS 1562.1. The right choice is mostly about your roof pitch and the look you want — we'll talk you through it." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is metal roofing wind-rated for Toowoomba storms?",
+      "acceptedAnswer": { "@type": "Answer", "text": "When it's fixed properly, yes. The fixing — screw type, spacing and the strength of the battens beneath — is what gives a metal roof its wind resistance, and it's calculated to AS 1170.2 wind actions for our region. A correctly fixed Colorbond roof handles Darling Downs storm gusts well; an under-fixed one is what lifts. We fix to full wind ratings and don't skimp on screws to save a few dollars." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a metal roof need a licensed roofer?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes — metal roof and wall cladding work over $3,300 requires the relevant QBCC licence in Queensland, and the install must follow AS 1562.1. Ask any roofer for their QBCC licence number and check it on the free public register. Working at height also brings WorkSafe fall-protection obligations. A licensed metal roofer carries the right insurance, safety systems and accountability." }
+    }
+  ]
+};
+---
+<Layout
+  title="Metal Roofing & Colorbond Toowoomba | Reroofs & Guttering"
+  description="Metal roofing & Colorbond in Toowoomba — Colorbond reroofs, custom orb & trimdek profiles, guttering & downpipes, wind-rated fixing to AS 1562.1 / AS 1170.2. QBCC-licensed. Free quote."
+  canonical="https://toowoombaroofrepairs.com.au/services/metal-roofing/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Colorbond &middot; custom orb &middot; trimdek &middot; guttering</span>
+      <h1>Metal roofing &amp; Colorbond in <span class="accent">Toowoomba</span>.</h1>
+      <p class="hero-sub">
+        Colorbond reroofs, custom-orb and trimdek profiles, new guttering and
+        downpipes, all wind-rated to AS 1562.1 and AS 1170.2. Metal is the strong
+        long-term choice for the range &mdash; light on cracking-clay-stressed
+        framing, tough against hail, and it won&rsquo;t crack or delaminate like
+        ageing tile. QBCC-licensed. Free measure and quote.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <h2>Why metal, and what we fit.</h2>
+      <div style="max-width: 65rem;">
+
+        <h3>Why Colorbond suits the Darling Downs.</h3>
+        <p>
+          Metal earns its keep up here. It&rsquo;s far lighter than concrete or
+          terracotta tile, which eases the load on framing already working hard
+          against reactive-clay ground movement. It sheds water, leaf litter and
+          melting hail fast. It doesn&rsquo;t crack, delaminate or go porous the
+          way ageing tile does. And fixed to current wind ratings it stands up to
+          the storm gusts that roll across the range each season. For most
+          Toowoomba reroofs, Colorbond is the sensible long-term call.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Profiles &mdash; custom orb &amp; trimdek.</h3>
+        <p>
+          <strong>Custom orb</strong> is the classic rounded-corrugated look that
+          suits Queenslanders, character homes and heritage streetscapes.
+          <strong>Trimdek</strong> and similar concealed-fixed ribbed profiles
+          give a cleaner, modern square-rib appearance and can run to a lower
+          pitch. Both come in the full Colorbond colour range. We&rsquo;ll match
+          the profile to your roof pitch and the look you&rsquo;re after.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Full Colorbond reroofs.</h3>
+        <p>
+          A metal reroof is more than just new sheets. We check and replace
+          battens, lay sarking, and renew ridge, flashings, valleys, gutters and
+          downpipes so the whole system goes on new together &mdash; there&rsquo;s
+          no point bolting bright new sheets onto rusted-out gutters. See our
+          <a href="/services/roof-replacement/">roof replacement</a> page for how
+          a full reroof runs start to finish, including tile-to-Colorbond
+          conversions.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Guttering &amp; downpipes.</h3>
+        <p>
+          Toowoomba&rsquo;s intense storm downpours move a lot of water fast, so
+          gutters and downpipes have to be sized and fixed to cope. We replace
+          rusted or undersized guttering, add downpipes where the run needs them,
+          and make sure valleys and box gutters can shift storm volume without
+          overflowing back into the eaves.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Wind-rated fixing &amp; standards.</h3>
+        <p>
+          A metal roof&rsquo;s strength is in its fixing. Screw type, spacing and
+          batten strength are calculated to <strong>AS 1170.2</strong> wind
+          actions for our region, and the roof is installed to <strong>AS
+          1562.1</strong>, the metal roofing standard. Metal cladding work over
+          $3,300 must be done under the relevant <strong>QBCC</strong> licence
+          &mdash; check the number on the public register &mdash; and at height we
+          work under WorkSafe fall-protection rules.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Why we don&rsquo;t cut corners.</h3>
+        <p>
+          The cheapest way to fit a metal roof is to under-fix it &mdash; fewer
+          screws, marginal battens, skip the sarking. It&rsquo;s also the fastest
+          way to have sheets lift in a Downs storm and a leak appear at the laps.
+          We fix to full wind ratings, replace battens that aren&rsquo;t up to it,
+          and detail the flashings and laps properly so the roof is weather-tight
+          and storm-ready. If hail has already damaged a metal roof, our
+          <a href="/services/storm-hail-damage/">storm &amp; hail damage</a>
+          service handles the insurance side.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2>Where we work.</h2>
+      <div class="areas-grid">
+        <a class="area-pill" href="/rangeville/">Rangeville</a>
+        <a class="area-pill" href="/centenary-heights/">Centenary Heights</a>
+        <a class="area-pill" href="/highfields/">Highfields</a>
+        <a class="area-pill" href="/wilsonton/">Wilsonton</a>
+        <a class="area-pill" href="/glenvale/">Glenvale</a>
+        <a class="area-pill" href="/toowoomba-region/">All Toowoomba Region</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cta-block">
+        <h2>Considering a Colorbond roof?</h2>
+        <p>We&rsquo;ll measure up, walk you through profiles and colours, and give you a fixed wind-rated quote. Honest advice on metal versus tile.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+          <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

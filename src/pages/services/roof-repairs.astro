@@ -1,0 +1,174 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does a roof leak repair cost in Toowoomba?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Most leak repairs in Toowoomba fall between $450 and $1,200. The variable is rarely the patch itself — it's tracing where the water actually enters versus where it appears inside. A simple cracked-tile or flashing reseal at an obvious entry point is at the lower end. A leak that's travelled along a batten or down a valley before showing on your ceiling takes more diagnosis and access. We quote the repair after we've found the true source, not before, so the price is real." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you repair just a few cracked or slipped tiles?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes — small tile repairs are everyday work for us. We match the profile and colour as closely as we can from current and salvaged stock, re-bed any slipped tiles, and check the surrounding tiles and pointing while we're up there (a cracked tile often has cracked neighbours from the same hail event). On older discontinued tile profiles an exact match isn't always possible, in which case we'll discuss the most sympathetic option." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my ridge capping keep cracking?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Almost always because it was pointed with rigid sand-cement mortar. Toowoomba's reactive black-soil clays make buildings move seasonally, and brittle mortar can't flex with that movement — so it cracks, lets water in, and eventually lets the caps lift in a storm. The fix is to re-bed the caps and repoint with a flexible pointing compound that moves with the roof. We use flexible pointing as standard on every re-bed and restoration." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a small roof repair covered by my insurance?",
+      "acceptedAnswer": { "@type": "Answer", "text": "It depends on the cause. Sudden storm or hail damage is generally covered (subject to your excess); gradual wear, age and lack of maintenance are not. If your leak is from a storm event it may be worth a claim — see our storm and hail damage page. If it's simply an ageing roof, a paid repair or restoration is usually faster and cheaper than the claim process for a small job. We'll tell you honestly which situation you're in." }
+    }
+  ]
+};
+---
+<Layout
+  title="Roof Repairs Toowoomba | Leaks, Tiles, Ridge Capping"
+  description="Roof repairs across Toowoomba — leak repairs, cracked-tile and ridge-cap replacement, flashing & valley repair, rusted-sheet patching. QBCC-licensed, AS 1562.1 / AS 1170.2. Free quote."
+  canonical="https://toowoombaroofrepairs.com.au/services/roof-repairs/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Leaks &middot; tiles &middot; ridge capping &middot; flashings</span>
+      <h1>Roof repairs across <span class="accent">Toowoomba</span>.</h1>
+      <p class="hero-sub">
+        Leak repairs, cracked and slipped tiles, broken ridge capping, failed
+        flashings and valleys, rusted metal sheets. We find the real source of
+        the problem, fix it properly, and tell you straight whether the rest of
+        the roof needs attention too. Most repairs done in a day. ~$350&ndash;$1,200
+        for typical jobs. QBCC-licensed.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <h2>What our roof repairs cover.</h2>
+      <div style="max-width: 65rem;">
+
+        <h3>Leak detection &amp; repair.</h3>
+        <p>
+          A roof leak rarely enters where it shows. Water gets in at a cracked
+          tile, a lifted flashing or a failed valley, then runs along battens
+          and sarking before it drips onto your ceiling &mdash; sometimes metres
+          from the entry point. We chase it back to the true source, fix that,
+          and check for the secondary damage water always causes. Typical leak
+          repair $450&ndash;$1,200 depending on access and how far the water has
+          travelled.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Cracked, slipped &amp; broken tiles.</h3>
+        <p>
+          Concrete and terracotta tiles crack under hail, foot traffic and age,
+          and slip when the bedding fails. We replace broken tiles (matching
+          profile and colour as closely as stock allows), re-bed slipped ones,
+          and check the neighbours &mdash; a single hail event usually cracks more
+          than one tile. A handful of tiles is typically $350&ndash;$700.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Ridge capping &amp; flexible repointing.</h3>
+        <p>
+          Cracked, drummy or lifting ridge and hip capping is the most common
+          repair we do in Toowoomba &mdash; and it&rsquo;s almost always because
+          the original rigid sand-cement pointing couldn&rsquo;t cope with our
+          reactive-clay ground movement. We re-bed the caps and repoint with a
+          <strong>flexible pointing compound</strong> that flexes with the
+          building instead of cracking off it. Re-bedding and repointing all the
+          ridge lines on an average house is $1,800&ndash;$4,000. If the whole
+          roof is tired, that&rsquo;s often better rolled into a full
+          <a href="/services/roof-restoration/">roof restoration</a>.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Flashings, valleys &amp; penetrations.</h3>
+        <p>
+          Flashings around chimneys, skylights, vents and wall abutments, plus
+          valley irons and box gutters, are where most chronic leaks live. We
+          reseal, re-flash or replace as needed &mdash; rusted valley irons get
+          swapped rather than patched, because a patched valley fails again next
+          storm.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Rusted &amp; storm-lifted metal sheets.</h3>
+        <p>
+          Older metal roofs rust out at the laps, around fasteners and along the
+          gutter line. We patch or replace affected sheets and re-fix to current
+          wind requirements. If rust is widespread the honest answer is a
+          <a href="/services/metal-roofing/">metal reroof</a> rather than chasing
+          patches &mdash; we&rsquo;ll show you the photos and let you decide.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Standards, licensing &amp; safety.</h3>
+        <p>
+          In Queensland any roofing work over $3,300 must be done by a
+          <strong>QBCC-licensed</strong> contractor &mdash; ask for the licence
+          number and check it at qbcc.qld.gov.au. Metal work follows
+          <strong>AS 1562.1</strong> (the metal roofing installation standard)
+          and fixings are rated for our wind region under <strong>AS 1170.2</strong>.
+          Tiled-roof work follows <strong>AS 2050</strong>. Every job is done
+          with proper height-safety systems under WorkSafe fall-protection rules
+          &mdash; a roof is no place for an unlicensed, uninsured handyman.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Storm-damage repairs &amp; insurance.</h3>
+        <p>
+          If your damage came from a storm or hail, it&rsquo;s very likely an
+          insurance matter rather than a paid repair. We make the roof safe
+          first, then provide a scope and photo report your assessor can work
+          from &mdash; see our <a href="/services/storm-hail-damage/">storm &amp;
+          hail damage</a> page for how the claim process runs on the Downs.
+        </p>
+
+        <h3 style="margin-top: 2rem;">Why we don&rsquo;t cut corners.</h3>
+        <p>
+          A cheap roof repair that fails is the most expensive repair there is &mdash;
+          because by the time it fails again, water has been in your ceiling,
+          insulation and walls for months. We chase leaks to their real source
+          instead of sealing the symptom, we use flexible pointing instead of
+          mortar that&rsquo;ll crack within a season, and we replace rusted valleys
+          and sheets rather than patching metal that&rsquo;s already gone. It costs
+          a little more on the day and a lot less over the life of the roof.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <h2>Where we work.</h2>
+      <div class="areas-grid">
+        <a class="area-pill" href="/rangeville/">Rangeville</a>
+        <a class="area-pill" href="/centenary-heights/">Centenary Heights</a>
+        <a class="area-pill" href="/highfields/">Highfields</a>
+        <a class="area-pill" href="/wilsonton/">Wilsonton</a>
+        <a class="area-pill" href="/glenvale/">Glenvale</a>
+        <a class="area-pill" href="/toowoomba-region/">All Toowoomba Region</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <div class="cta-block">
+        <h2>Got a leak or a broken tile?</h2>
+        <p>We&rsquo;ll get up there, find the real problem, and give you an honest fixed price. Most repairs done in a day.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+          <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

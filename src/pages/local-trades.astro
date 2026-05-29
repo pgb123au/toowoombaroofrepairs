@@ -1,0 +1,197 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does a roofer need a licence in Queensland?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. In Queensland any roofing work valued over $3,300 must be carried out by a contractor holding the relevant QBCC licence — roof tiling, or roof and wall cladding for metal work. The licence requires a Certificate III in the trade, demonstrated experience, minimum financial standing for contractor licences, and a 'fit and proper person' check. Always ask for the licence number and check it on the free public QBCC register before any roofer starts work."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What standards apply to roofing work in Toowoomba?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Metal roofing is installed to AS 1562.1 (the metal roof and wall cladding installation standard). Roof tiling follows AS 2050. Fixings — screw type, spacing and batten strength — are calculated to AS 1170.2 wind actions for the region, which matters in Toowoomba's storm-prone climate. Working at height brings WorkSafe Queensland fall-protection obligations. A licensed roofer works to all of these as a matter of course."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I make a roof hail-damage insurance claim?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Make the roof safe first (tarp and stop active leaks) and photograph the damage, then read your Product Disclosure Statement so you know your excess and what's covered, and lodge the claim with your insurer. An independent roofer's scope and photo report alongside the insurer's assessor helps ensure nothing is missed. Sudden storm and hail damage is generally covered; gradual wear and lack of maintenance are not."
+      }
+    }
+  ]
+};
+---
+<Layout
+  title="Toowoomba Roofing Resources | Licensing, Standards & Hail Claims"
+  description="A practical Toowoomba roofing reference — QBCC licensing, AS 1562 & AS 1170.2 standards, hail insurance-claim guidance and the official authorities every Darling Downs homeowner should bookmark."
+  canonical="https://toowoombaroofrepairs.com.au/local-trades/">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </Fragment>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-eyebrow">Toowoomba roofing &mdash; know your rights</span>
+      <h1>Toowoomba <span class="accent">roofing resources</span>.</h1>
+      <p class="hero-sub">
+        Before you hire a roofer or lodge a hail claim, it pays to know how
+        roofing is licensed and regulated in Queensland and where the official
+        information lives. Here&rsquo;s a plain-English guide to QBCC licensing,
+        the standards that apply, how a storm-damage insurance claim works, and
+        the authorities every Darling Downs homeowner should bookmark.
+      </p>
+      <div class="hero-actions">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <span class="section-eyebrow">Licensing</span>
+      <h2>Check the licence before you hire.</h2>
+      <div class="divider"></div>
+      <div style="max-width:65rem;">
+        <h3>The $3,300 rule.</h3>
+        <p>
+          In Queensland, any roofing work valued over $3,300 (labour plus
+          materials) must be carried out by a contractor holding the relevant
+          QBCC licence. For tiled roofs that&rsquo;s a roof tiling licence; for
+          metal it&rsquo;s a roof and wall cladding licence; a builder&rsquo;s
+          licence covers broader work. To hold a licence a roofer needs a
+          Certificate III in the trade, demonstrated hands-on experience, minimum
+          financial standing for a contractor licence, and to pass a &lsquo;fit
+          and proper person&rsquo; check.
+        </p>
+        <p>
+          The single most useful thing you can do as a homeowner is ask any
+          roofer for their QBCC licence number and check it yourself on the free
+          public register. It takes a minute and it tells you the licence is
+          current, in the right class, and not subject to conditions. An
+          unlicensed handyman doing roof work over $3,300 is breaking the law and
+          almost certainly isn&rsquo;t carrying the right insurance.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <span class="section-eyebrow">Standards &amp; safety</span>
+      <h2>The standards behind a properly done roof.</h2>
+      <div class="divider"></div>
+      <div style="max-width:65rem;">
+        <h3>What good roofing work follows.</h3>
+        <ul>
+          <li style="margin-bottom:0.6rem;"><strong>AS 1562.1</strong> &mdash; the installation standard for metal roof and wall cladding. Covers how sheets are laid, lapped, flashed and fixed.</li>
+          <li style="margin-bottom:0.6rem;"><strong>AS 1170.2</strong> &mdash; wind actions. Determines fastener type, screw spacing and batten strength for the region&rsquo;s wind speeds &mdash; critical in Toowoomba&rsquo;s storm climate.</li>
+          <li style="margin-bottom:0.6rem;"><strong>AS 2050</strong> &mdash; installation of roof tiles, including bedding and pointing of ridge and hip capping.</li>
+          <li style="margin-bottom:0.6rem;"><strong>WorkSafe Queensland height-safety rules</strong> &mdash; fall-protection obligations for any work on a roof.</li>
+        </ul>
+        <p>
+          These aren&rsquo;t optional extras &mdash; they&rsquo;re the difference
+          between a roof that survives the next Darling Downs supercell and one
+          that lifts. When you get a quote, it&rsquo;s fair to ask how the roof
+          will be fixed for wind and what standard the work is to.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-inner">
+      <span class="section-eyebrow">Hail &amp; storm claims</span>
+      <h2>Making a roof insurance claim on the Downs.</h2>
+      <div class="divider"></div>
+      <div style="max-width:65rem;">
+        <h3>The short version.</h3>
+        <p>
+          Toowoomba sits in the Darling Downs hail belt, so roof storm claims are
+          routine here. Sudden storm, hail and wind damage is covered by virtually
+          every policy; gradual wear and lack of maintenance are not. If a storm
+          damages your roof: make it safe and photograph everything, read your
+          Product Disclosure Statement so you know your excess, lodge the claim,
+          then get an independent roofer&rsquo;s scope and photo report so the
+          insurer&rsquo;s assessor doesn&rsquo;t miss anything. The Bureau of
+          Meteorology&rsquo;s severe-storm warnings and archive are a useful record
+          of when an event actually occurred.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="section-inner">
+      <span class="section-eyebrow">Official authorities</span>
+      <h2>Toowoomba &amp; Queensland roofing references to bookmark.</h2>
+      <div class="divider"></div>
+      <div style="max-width:65rem;">
+        <ul style="margin-top:1rem;">
+          <li style="margin-bottom:0.75rem;">
+            <strong>Queensland Building &amp; Construction Commission (QBCC)</strong>
+            &mdash; licence classes, the free public licence register, and consumer
+            guidance on hiring a licensed roofer.
+            <a href="https://www.qbcc.qld.gov.au/" target="_blank" rel="external noopener">qbcc.qld.gov.au</a>
+          </li>
+          <li style="margin-bottom:0.75rem;">
+            <strong>Standards Australia</strong>
+            &mdash; the source for AS 1562.1 (metal roofing), AS 1170.2 (wind
+            actions) and AS 2050 (roof tiling).
+            <a href="https://www.standards.org.au/" target="_blank" rel="external noopener">standards.org.au</a>
+          </li>
+          <li style="margin-bottom:0.75rem;">
+            <strong>Toowoomba Regional Council</strong>
+            &mdash; local building, planning and heritage/character-overlay
+            information that can apply when you change roof material or structure.
+            <a href="https://www.tr.qld.gov.au/" target="_blank" rel="external noopener">tr.qld.gov.au</a>
+          </li>
+          <li style="margin-bottom:0.75rem;">
+            <strong>Bureau of Meteorology &mdash; severe weather &amp; storm archive</strong>
+            &mdash; warnings, radar and the historical severe-storm record for the
+            Darling Downs, handy when documenting a hail-claim date.
+            <a href="http://www.bom.gov.au/qld/warnings/" target="_blank" rel="external noopener">bom.gov.au &mdash; QLD warnings</a>
+          </li>
+          <li style="margin-bottom:0.75rem;">
+            <strong>Master Builders Queensland</strong>
+            &mdash; industry body with consumer guidance on contracts, getting
+            quotes and resolving building disputes.
+            <a href="https://www.mbqld.com.au/" target="_blank" rel="external noopener">mbqld.com.au</a>
+          </li>
+          <li style="margin-bottom:0.75rem;">
+            <strong>WorkSafe Queensland</strong>
+            &mdash; the rules on working safely at height, which any reputable
+            roofer follows on every job.
+            <a href="https://www.worksafe.qld.gov.au/" target="_blank" rel="external noopener">worksafe.qld.gov.au</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background:var(--c-navy);color:#fff;">
+    <div class="section-inner" style="text-align:center;">
+      <h2 style="color:#fff;">Free quote &mdash; honest Toowoomba roofing.</h2>
+      <p style="opacity:0.85;max-width:50rem;margin:1rem auto 2rem;">
+        QBCC-licensed roof repairs, reroofing, storm &amp; hail damage, metal
+        roofing and restoration across Toowoomba and the Darling Downs. Work to
+        AS 1562.1 and AS 1170.2. We deal with your insurance assessor.
+      </p>
+      <div class="hero-actions" style="justify-content:center;">
+        <a class="ph-cta btn btn-primary" href="/quote/" aria-label="Call us"><span aria-hidden="true">&#9742;</span> <span class="ph-text">Tap to call</span></a>
+        <a class="btn btn-ghost" href="/quote/">Get a free quote</a>
+      </div>
+    </div>
+  </section>
+</Layout>
